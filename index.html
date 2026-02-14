@@ -1182,46 +1182,5 @@ export default function GithubExport() {
     toast.success('File downloaded!');
   };
 
-  return (
-    <div className="min-h-screen bg-slate-900 text-slate-200 p-6">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-2">GitHub Pages Export</h1>
-        <p className="text-slate-400 mb-6">
-          Download or copy this single HTML file and upload it to your GitHub repository as <code className="bg-slate-800 px-2 py-1 rounded">index.html</code>
-        </p>
 
-        <div className="flex gap-4 mb-6">
-          <Button onClick={downloadFile} className="bg-cyan-500 hover:bg-cyan-600 text-slate-900">
-            <Download className="w-4 h-4 mr-2" />
-            Download index.html
-          </Button>
-          <Button onClick={copyToClipboard} variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-800">
-            <Copy className="w-4 h-4 mr-2" />
-            Copy Code
-          </Button>
-        </div>
 
-        <div className="bg-slate-800 border border-slate-700 rounded-xl p-4 mb-6">
-          <h2 className="font-semibold mb-3">How to deploy on GitHub Pages:</h2>
-          <ol className="list-decimal list-inside space-y-2 text-slate-400 text-sm">
-            <li>Download the <code className="bg-slate-700 px-1 rounded">index.html</code> file</li>
-            <li>Go to your GitHub repository</li>
-            <li>Upload the file to the root of your repository</li>
-            <li>Go to Settings → Pages</li>
-            <li>Select "Deploy from a branch" and choose "main" branch</li>
-            <li>Your site will be live at <code className="bg-slate-700 px-1 rounded">username.github.io/repo-name</code></li>
-          </ol>
-        </div>
-
-        <div className="bg-slate-800/50 border border-slate-700 rounded-xl overflow-hidden">
-          <div className="bg-slate-700/50 px-4 py-2 text-sm text-slate-400 border-b border-slate-700">
-            index.html
-          </div>
-          <pre className="p-4 overflow-auto max-h-96 text-xs text-slate-400">
-            <code>{htmlCode.slice(0, 2000)}...</code>
-          </pre>
-        </div>
-      </div>
-    </div>
-  );
-}
