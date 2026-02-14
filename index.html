@@ -1165,22 +1165,7 @@ const htmlCode = `<!DOCTYPE html>
 </body>
 </html>`;
 
-export default function GithubExport() {
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(htmlCode);
-    toast.success('Code copied to clipboard!');
-  };
 
-  const downloadFile = () => {
-    const blob = new Blob([htmlCode], { type: 'text/html' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'index.html';
-    a.click();
-    URL.revokeObjectURL(url);
-    toast.success('File downloaded!');
-  };
 
 
 
