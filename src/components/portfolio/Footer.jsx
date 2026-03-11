@@ -17,7 +17,7 @@ const testimonials = [
 ];
 
 const socialLinks = [
-    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/nikhil-gupta-329b47233?utm_source=share_via&utm_content=profile&utm_medium=member_android", color: "hover:text-blue-500" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/nikhil-gupta-6897023b6", color: "hover:text-blue-500" },
     { icon: Github, label: "GitHub", href: "https://github.com/vivekgupta8840246570/Nikhil-Portfolio.github.io", color: "hover:text-gray-100" },
     { icon: Briefcase, label: "Naukri", href: "https://www.naukri.com/mnjuser/homepage?utm_source=google&utm_medium=cpc&utm_campaign=Brand", color: "hover:text-blue-400" },
 ];

@@ -3,7 +3,7 @@ import { Linkedin, Github, Instagram, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const socialItems = [
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/nikhil-gupta-329b47233?utm_source=share_via&utm_content=profile&utm_medium=member_android', color: 'hover:text-[#0077b5]' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/nikhil-gupta-6897023b6', color: 'hover:text-[#0077b5]' },
     { name: 'GitHub', icon: Github, url: 'https://github.com/vivekgupta8840246570/Nikhil-Portfolio.github.io', color: 'hover:text-white' },
     { name: 'Naukri', icon: Briefcase, url: 'https://www.naukri.com/mnjuser/homepage?utm_source=google&utm_medium=cpc&utm_campaign=Brand', color: 'hover:text-cyan-400' },
 ];

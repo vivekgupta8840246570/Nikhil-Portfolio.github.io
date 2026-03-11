@@ -125,7 +125,7 @@ export default function Home() {
                             <p className="mb-4 text-xs font-medium text-slate-500">Connect with me</p>
                             <div className="flex gap-3">
                                 {[
-                                    { icon: Linkedin, href: "https://www.linkedin.com/in/nikhil-gupta-329b47233?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+                                    { icon: Linkedin, href: "https://www.linkedin.com/in/nikhil-gupta-6897023b6" },
                                     { icon: Github, href: "https://github.com/vivekgupta8840246570/Nikhil-Portfolio.github.io" }
                                 ].map((social, index) => (
                                     <a
